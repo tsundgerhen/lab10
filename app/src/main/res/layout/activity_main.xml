@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Book Details -->
+        <EditText
+            android:id="@+id/bookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Номны нэр" />
+
+        <EditText
+            android:id="@+id/bookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Зохиолч" />
+
+        <EditText
+            android:id="@+id/bookDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Он" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ном хадаглах" />
+
+        <Button
+            android:id="@+id/viewBooksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номнуудыг харуулах" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Гарах" />
+    </LinearLayout>
+</ScrollView>
